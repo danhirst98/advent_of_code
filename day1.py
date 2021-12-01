@@ -35,7 +35,7 @@ def b(input_file, kernel_size=3) -> int:
 
 if __name__ == '__main__':
     ans1 = a("input/day1.txt")
-    print(ans1)
+    print("Day 1 Part a answer: ", ans1)
 
     ans2 = b("input/day1.txt")
-    print(ans2)
+    print("Day 1 Part b answer: ",ans2)
